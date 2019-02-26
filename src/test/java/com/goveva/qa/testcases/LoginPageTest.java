@@ -36,7 +36,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority = 2)
 	public void LoginTest()
 	{
-	
+	system.out.println("mytest")
 		dashboard = LoginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		//dashboard = LoginPage.Login(prop.getProperty("username"), prop.getProperty("password"));
 	}
